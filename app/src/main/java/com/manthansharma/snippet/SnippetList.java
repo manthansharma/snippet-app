@@ -69,8 +69,6 @@ public class SnippetList extends BaseNavigationActivity {
 		if (adapterSnippet == null) {
 			setUrl("snippet/");
 			new SnippetListTask().execute();
-		} else {
-			System.out.println(adapterSnippet.getCount());
 		}
 
 		listSnippet.setOnScrollListener(new AbsListView.OnScrollListener() {
@@ -115,7 +113,6 @@ public class SnippetList extends BaseNavigationActivity {
 			SharedPreferences sharedPreferences = getSharedPreferences("com.manthansharma.snippet", MODE_PRIVATE);
 			String auth_token = sharedPreferences.getString("auth_token", null);
 			MyApiEndpointInterface apiService = ServiceGenerator.createService(MyApiEndpointInterface.class, auth_token);
-			System.out.println(getUrl());
 			apiService.list_snippet(getUrl()).enqueue(new Callback<snippetList>() {
 				@Override
 				public void onResponse(Call<snippetList> call, Response<snippetList> response) {

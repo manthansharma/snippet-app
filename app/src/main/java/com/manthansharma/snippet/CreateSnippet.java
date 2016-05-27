@@ -174,7 +174,6 @@ public class CreateSnippet extends AppCompatActivity {
 	}
 
 	public boolean validate() {
-		System.out.println("validate");
 		boolean valid = true;
 
 		String name = _nameText.getText().toString();
