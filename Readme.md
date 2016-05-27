@@ -1,8 +1,13 @@
 # Snippet App
 
-<img src="/images/app_logo.png" height="400px"/>
+<img src="/images/app_logo.png" height="100px"/>
 
 Learn and Share coding the easy way with "Snippet" application.
+
+## Setup
+1. Update API URL
+
+        Update API_BASE_URL variable in [ServiceGenerator](https://github.com/manthansharma/snippet-app/blob/master/app/src/main/java/com/manthansharma/snippet/ServiceGenerator.java) class
 
 ## Screenshots
 
@@ -20,4 +25,4 @@ Learn and Share coding the easy way with "Snippet" application.
 * [okhttp3](https://github.com/square/okhttp)
 
 ## REST Api
-Code for the REST API(https://github.com/manthansharma/snippet-api)
+Code for the [REST API](https://github.com/manthansharma/snippet-api)

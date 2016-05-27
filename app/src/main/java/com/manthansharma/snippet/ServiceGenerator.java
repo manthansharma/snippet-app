@@ -15,7 +15,7 @@ public class ServiceGenerator {
 	public static final String TAG = ServiceGenerator.class.getSimpleName();
 
 	public static Retrofit retrofit;
-	public static final String API_BASE_URL = "http://192.168.0.101:8000/";
+	public static final String API_BASE_URL = "";
 	private static HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
 
 	private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
