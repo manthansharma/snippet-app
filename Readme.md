@@ -5,9 +5,7 @@
 Learn and Share coding the easy way with "Snippet" application.
 
 ## Setup
-1. Update API URL
-
-        Update API_BASE_URL variable in [ServiceGenerator](https://github.com/manthansharma/snippet-app/blob/master/app/src/main/java/com/manthansharma/snippet/ServiceGenerator.java) class
+1. Update API_BASE_URL variable in [ServiceGenerator](https://github.com/manthansharma/snippet-app/blob/master/app/src/main/java/com/manthansharma/snippet/ServiceGenerator.java) class
 
 ## Screenshots
 
