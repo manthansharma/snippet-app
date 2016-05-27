@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="style">
+		<item>algol</item>
+		<item>algol_nu</item>
+		<item>autumn</item>
+		<item>borland</item>
+		<item>bw</item>
+		<item>colorful</item>
+		<item>default</item>
+		<item>emacs</item>
+		<item>friendly</item>
+		<item>fruity</item>
+		<item>igor</item>
+		<item>lovelace</item>
+		<item>manni</item>
+		<item>monokai</item>
+		<item>murphy</item>
+		<item>native</item>
+		<item>paraiso-dark</item>
+		<item>paraiso-light</item>
+		<item>pastie</item>
+		<item>perldoc</item>
+		<item>rrt</item>
+		<item>tango</item>
+		<item>trac</item>
+		<item>vim</item>
+		<item>vs</item>
+		<item>xcode</item>
+	</string-array>
+</resources>

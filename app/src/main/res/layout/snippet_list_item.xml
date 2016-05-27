@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/snippet_list_bg"
+              android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginLeft="@dimen/snippet_list_item_margin"
+		android:layout_marginRight="@dimen/snippet_list_item_margin"
+		android:layout_marginTop="@dimen/snippet_list_item_margin"
+		android:background="@drawable/snippet_list_bg"
+		android:orientation="vertical"
+		android:paddingBottom="@dimen/snippet_list_item_padding_top_bottom"
+		android:paddingTop="@dimen/snippet_list_item_padding_top_bottom">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:paddingLeft="@dimen/snippet_list_item_padding_left_right"
+			android:paddingRight="@dimen/snippet_list_item_padding_left_right">
+
+			<ImageView
+				android:id="@+id/profilePic"
+				android:layout_width="@dimen/snippet_list_item_profile_pic"
+				android:layout_height="@dimen/snippet_list_item_profile_pic"
+				android:scaleType="fitCenter" android:src="@drawable/profile">
+			</ImageView>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingLeft="@dimen/snippet_list_item_profile_info_padd"
+				android:paddingRight="@dimen/snippet_list_item_profile_info_padd">
+
+				<TextView
+					android:id="@+id/snippet_item_name"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textSize="@dimen/snippet_list_item_profile_name"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:id="@+id/snippet_item_created"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textColor="@color/timestamp"
+					android:textSize="@dimen/snippet_list_item_timestamp"/>
+			</LinearLayout>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="Medium Text"
+				android:id="@+id/textView3"/>
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/snippet_item_extract"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="10dp"
+			android:linksClickable="true"
+			android:paddingBottom="10dp"
+			android:paddingLeft="@dimen/snippet_list_item_status_pad_left_right"
+			android:paddingRight="@dimen/snippet_list_item_status_pad_left_right"
+			android:textColorLink="@color/link"/>
+
+		<WebView
+			android:id="@+id/snippet_item_highlight"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"/>
+	</LinearLayout>
+
+</LinearLayout>

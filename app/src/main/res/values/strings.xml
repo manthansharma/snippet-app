@@ -1,0 +1,41 @@
+<resources>
+	<string name="app_name">Snippet</string>
+
+	<!-- Strings related to login -->
+	<string name="prompt_name">Name</string>
+	<string name="prompt_email">Email</string>
+	<string name="prompt_password">Password</string>
+	<string name="action_login">Sign in</string>
+	<string name="action_login_short">Sign in</string>
+	<string name="action_login_link">Already a member? Login</string>
+	<string name="action_signup_link">No account yet? Create one</string>
+	<string name="action_signup_short">Create Account</string>
+	<string name="error_invalid_email">This email address is invalid</string>
+	<string name="error_invalid_password">This password is too short</string>
+	<string name="error_incorrect_password">This password is incorrect</string>
+	<string name="error_field_required">This field is required</string>
+	<string name="permission_rationale">"Contacts permissions are needed for providing email
+		completions."
+	</string>
+	<string name="logo_contentDes">Logo</string>
+	<string name="title_activity_navigation">Snippet</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="action_settings">Settings</string>
+	<string name="menu_snippet_list">Snippet List</string>
+	<string name="menu_feedback">Feedback</string>
+	<string name="menu_exit">Exit</string>
+	<string name="menu_developer">Developer</string>
+	<string name="menu_compile_and_run">Compile and Run</string>
+	<string name="menu_logout">Logout</string>
+
+
+	<string name="create_snippet_name">Name</string>
+	<string name="create_snippet_email">Email</string>
+	<string name="create_snippet_language">Language</string>
+	<string name="create_snippet_style">Style</string>
+	<string name="create_snippet_code">Code</string>
+	<string name="create_snippet_btn">Save</string>
+</resources>

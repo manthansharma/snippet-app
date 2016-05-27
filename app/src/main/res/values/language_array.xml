@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="language">
+		<item>C</item>
+		<item>CMake</item>
+		<item>COBOL</item>
+		<item>COBOLFree</item>
+		<item>CoffeeScript</item>
+		<item>Bash Session</item>
+		<item>C++</item>
+		<item>C#</item>
+		<item>CSS</item>
+		<item>Gherkin</item>
+		<item>Cython</item>
+		<item>Django/Jinja</item>
+		<item>FoxPro</item>
+		<item>JSON</item>
+		<item>JSON-LD</item>
+		<item>Java Server Page</item>
+		<item>Julia</item>
+		<item>Matlab</item>
+		<item>Matlab session</item>
+		<item>MiniD</item>
+		<item>Modelica</item>
+		<item>Modula-2</item>
+		<item>Monkey</item>
+		<item>MOOCode</item>
+		<item>MoonScript</item>
+		<item>mozhashpreproc</item>
+		<item>mozpercentpreproc</item>
+		<item>MQL</item>
+		<item>Mscgen</item>
+		<item>MuPAD</item>
+		<item>MXML</item>
+		<item>Myghty</item>
+		<item>MySQL</item>
+		<item>NASM</item>
+		<item>Nemerle</item>
+		<item>nesC</item>
+		<item>NewLisp</item>
+		<item>Newspeak</item>
+		<item>Nginx configuration file</item>
+		<item>Nimrod</item>
+		<item>Nit</item>
+		<item>Nix</item>
+		<item>NSIS</item>
+		<item>NumPy</item>
+		<item>objdump</item>
+		<item>objdump-nasm</item>
+		<item>Objective-C</item>
+		<item>Objective-C++</item>
+		<item>Objective-J</item>
+		<item>OCaml</item>
+		<item>Octave</item>
+		<item>Perl</item>
+		<item>Perl6</item>
+		<item>PHP</item>
+		<item>Pig</item>
+		<item>Pike</item>
+		<item>PkgConfig</item>
+		<item>PL/pgSQL</item>
+		<item>PostgreSQL SQL dialect</item>
+		<item>PostScript</item>
+		<item>Gettext Catalog</item>
+		<item>POVRay</item>
+		<item>PowerShell</item>
+		<item>Praat</item>
+		<item>Prolog</item>
+		<item>Properties</item>
+		<item>Protocol Buffer</item>
+		<item>PowerShell Session</item>
+		<item>PostgreSQL console (psql)</item>
+		<item>Puppet</item>
+		<item>Python 3.0 Traceback</item>
+		<item>Python console session</item>
+		<item>PyPy Log</item>
+		<item>Python Traceback</item>
+		<item>Python</item>
+		<item>Python 3</item>
+		<item>QBasic</item>
+		<item>QML</item>
+		<item>QVTO</item>
+		<item>Racket</item>
+		<item>Ragel</item>
+		<item>Raw token data</item>
+		<item>Ruby</item>
+		<item>Ruby irb session</item>
+		<item>RConsole</item>
+		<item>Rd</item>
+		<item>REBOL</item>
+		<item>Red</item>
+		<item>Redcode</item>
+		<item>reg</item>
+		<item>ResourceBundle</item>
+		<item>Rexx</item>
+		<item>RHTML</item>
+		<item>Roboconf Graph</item>
+		<item>Roboconf Instances</item>
+		<item>RobotFramework</item>
+		<item>RQL</item>
+		<item>RSL</item>
+		<item>reStructuredText</item>
+		<item>TrafficScript</item>
+		<item>Rust</item>
+		<item>Sass</item>
+		<item>SuperCollider</item>
+		<item>Scala</item>
+		<item>Scaml</item>
+		<item>SQL</item>
+		<item>sqlite3con</item>
+		<item>SWIG</item>
+		<item>systemverilog</item>
+		<item>TAP</item>
+		<item>Tcl</item>
+		<item>Tcsh Session</item>
+		<item>Tea</item>
+		<item>Terraform</item>
+		<item>Text only</item>
+		<item>Twig</item>
+		<item>VB.net</item>
+		<item>verilog</item>
+		<item>vhdl</item>
+		<item>XML</item>
+	</string-array>
+</resources>
