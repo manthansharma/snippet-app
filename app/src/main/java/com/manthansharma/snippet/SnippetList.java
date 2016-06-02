@@ -88,8 +88,8 @@ public class SnippetList extends BaseNavigationActivity {
 							URL tempURL = new URL(snippetList.getNext());
 							setUrl(tempURL.getFile());
 							new SnippetListTask().execute();
-						} catch (MalformedURLException e) {
-							e.printStackTrace();
+						} catch (MalformedURLException ignored){
+
 						}
 					}
 				}

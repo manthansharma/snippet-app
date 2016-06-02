@@ -49,8 +49,7 @@
 					android:hint="@string/prompt_email"
 					android:inputType="textEmailAddress"
 					android:maxLines="1"
-					android:singleLine="true"
-					android:text="hitechmanthan@gmail.com"/>
+					android:singleLine="true"/>
 
 			</android.support.design.widget.TextInputLayout>
 
@@ -69,8 +68,7 @@
 					android:hint="@string/prompt_password"
 					android:inputType="textPassword"
 					android:maxLines="1"
-					android:singleLine="true"
-					android:text="10081997a"/>
+					android:singleLine="true"/>
 
 			</android.support.design.widget.TextInputLayout>
 

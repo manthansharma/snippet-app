@@ -31,7 +31,7 @@
 				android:hint="@string/create_snippet_name"
 				android:inputType="textEmailAddress"
 				android:maxLines="1"
-				android:singleLine="true" android:text="Factorial Code"/>
+				android:singleLine="true"/>
 		</android.support.design.widget.TextInputLayout>
 
 		<TextView
@@ -89,9 +89,7 @@
 				android:lines="7"
 				android:overScrollMode="always"
 				android:scrollbarStyle="insideInset"
-				android:scrollbars="vertical"
-				android:text="def factorial(n):\n\tif n == 1:\n\t\treturn 1\n\telse:\n\t\treturn n * factorial(n-1)   \nprint factorial(10)\n"
-				tools:ignore="HardcodedText"/>
+				android:scrollbars="vertical"/>
 		</android.support.design.widget.TextInputLayout>
 
 		<android.support.v7.widget.AppCompatButton
